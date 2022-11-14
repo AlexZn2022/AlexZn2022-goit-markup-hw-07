@@ -1,0 +1,17 @@
+@import url(./_reset-style.scss);
+@import url(./_veriables.scss);
+
+@import '../sass/utils/variables';
+@import '../sass/base/base-style';
+@import '../sass/layouts/_header.scss';
+@import '../sass/layouts/hero';
+@import '../sass/layouts/feature';
+@import '../sass/layouts/what-we-do';
+@import '../sass/layouts/team';
+@import '../sass/layouts/client';
+@import '../sass/layouts/footer';
+@import '../sass/layouts/portfolio';
+@import '../sass/layouts/backdrop';
+@import '../sass/layouts/modal';
+@import '../sass/layouts/form';
+
