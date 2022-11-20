@@ -424,7 +424,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__link__link:hover, .client__link__link:focus {
+.client__link:hover, .client__link:focus {
   color: #188ce8;
 }
 
@@ -478,10 +478,6 @@ ul {
   color: #2196f3;
 }
 
-.footer .logo {
-  margin-bottom: 20px;
-}
-
 .logo__text--white {
   color: #ffffff;
 }
@@ -508,14 +504,15 @@ ul {
 .footer__list {
   margin-left: 70px;
 }
-.footer__list.social__link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
 .footer__list.social__link:hover, .footer__list.social__link:focus {
   background-color: #188ce8;
 }
 .footer__list.social__icon {
   fill: #ffffff;
+}
+
+.social__link--grey {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-form {

@@ -30,8 +30,8 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: $--hover-animation;
-    &__link:hover,
-    &__link:focus{
+    &:hover,
+    &:focus{
       color: $--active-main-color;}
       }
   

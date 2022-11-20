@@ -34,8 +34,7 @@
     }
   }
   
-  
-  .address__link--white {
+    .address__link--white {
     line-height: 1.71;
     color: $--white-text-color;
     transition-property: color;
@@ -48,11 +47,7 @@
     }
   }
  
-  
-  .footer .logo {
-    margin-bottom: 20px;
-  }
-  
+   
   .logo__text--white {
     color: $--white-text-color;
   }
@@ -80,10 +75,6 @@
   .footer__list {
     margin-left: 70px;
 
-    &.social__link {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-
     &.social__link:hover,
     &.social__link:focus {
       background-color: $--active-main-color;
@@ -94,7 +85,10 @@
     }
   }
   
-  
+  .social__link--grey {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
   .footer-form{
   display: flex;
   margin-left: 93px;
@@ -115,8 +109,6 @@
     }
 
   }
-  
-
   
   .footer-form__input{
   min-width: 358px;
